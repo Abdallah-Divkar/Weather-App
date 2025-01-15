@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <!--
+      COMP125 - Client-Side Web Development
+
+      Assignment 4- Weather App
+      Author: Abdallah Divkar
+      Student-ID: 301302441
+      Date:   13/8/2024
+
+      Filename: index.html
+   -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div id="weather-container">
+        <h2>Weather App</h2>
+        <input type="text" id="city" placeholder="Enter city">
+        <button onclick="getWeather()">Search</button>
+        <div>
+            <button id="locationBtn">Current Location <i class="fas fa-location-dot"></i></button>
+        </div>
+        <img id="weather-icon" alt="Weather Icon">
+
+        <div id="temp-div"></div>
+        
+        <div id="hourly-forecast"></div>
+        <footer>
+            
+            <h6 style="font-family: Arial, Helvetica, sans-serif; color:blue; font-size: 10px;">&copy;&nbsp;&nbsp;Copyright: Abdallah Divkar -- 301302441 -- COMP125 -- Summer 2024 -- Assignment-4</h6>
+        </footer>
+    </div>
+    <div id="weather-info">
+    </div>
+
+</body>
+</html>
