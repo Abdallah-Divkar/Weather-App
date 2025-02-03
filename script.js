@@ -9,7 +9,7 @@ Date:   13/8/2024
 Filename: script.js
 */
 
-const apiKey = '49cc8c821cd2aff9af04c9f98c36eb74';
+const apiKey = '0b2fb2bd18462b8e0605cc05ed923f5b';
 
 function getWeather() {
     const city = document.getElementById('city').value;
